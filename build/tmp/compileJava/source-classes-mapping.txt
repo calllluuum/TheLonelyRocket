@@ -8,11 +8,13 @@ toodee/Camera.java
  toodee.Camera
 toodee/Scene.java
  toodee.Scene
-toodee/Window.java
- toodee.Window
 Main.java
  Main
-Scenes/MainScene.java
- Scenes.MainScene
+toodee/renderer/Texture.java
+ toodee.renderer.Texture
 toodee/renderer/Shader.java
  toodee.renderer.Shader
+Scenes/MainScene.java
+ Scenes.MainScene
+toodee/Window.java
+ toodee.Window

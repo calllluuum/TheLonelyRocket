@@ -55,6 +55,9 @@ public class Shader {
             e.printStackTrace();
             assert false: "ERROR: Could not open shader file: " + filepath;
         }
+
+        //compile();
+
     }
 
     public void compile() {
@@ -158,4 +161,9 @@ public class Shader {
         glUniform1f(varLocation, val);
     }
 
+    public void uploadTexture(String varName, int slot) {
+        int varLocation = glGetUniformLocation(shaderProgramID, varName);
+        use();
+        glUniform1f(varLocation, slot);
+    }
 }
